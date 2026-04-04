@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Mastery - Tahap 1: DOM Manipulation</title>
+    <style>
+        body { font-family: 'Outfit', sans-serif; text-align: center; padding: 50px; background-color: #f0f2f5; transition: background 0.3s ease; }
+        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); display: inline-block; max-width: 400px; }
+        h1 { color: #1e293b; margin-bottom: 10px; }
+        p { color: #64748b; font-size: 1.1rem; }
+        .btn { background-color: #3b82f6; color: white; border: none; padding: 12px 24px; border-radius: 10px; font-size: 1rem; cursor: pointer; transition: transform 0.2s, background 0.2s; margin-top: 20px; }
+        .btn:hover { background-color: #2563eb; transform: translateY(-2px); }
+        .btn:active { transform: translateY(0); }
+    </style>
+</head>
+<body id="mainBody">
+    <div class="card">
+        <h1 id="mainTitle">Halo, Dunia!</h1>
+        <p id="description">Klik tombol di bawah ini untuk melihat keajaiban manipulasi DOM.</p>
+        
+        <button class="btn" id="magicBtn">Klik Saya! ✨</button>
+    </div>
+
+    <!-- Menghubungkan ke JS -->
+    <script src="index.js"></script>
+</body>
+</html>
