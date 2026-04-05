@@ -1,0 +1,23 @@
+/* 
+ * 🚀 Latihan Tahap 2: CSS Fundamentals (Box Model & Flexbox)
+ * 
+ * Petunjuk:
+ * 1. Buka file `step-by-step.md` untuk panduan pengerjaan.
+ * 2. Tuliskan kode Anda di bawah ini sesuai langkah-langkah di file tersebut.
+ * 3. Simpan perubahan (Ctrl + S) lalu buka `index.html` di browser (F5).
+ */
+
+/* Tuliskan Kode Anda mulai dari sini: */
+body {
+    background-color: #f1f5f9;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Langkah 2: Flex Container & Item */
+/* Langkah 3: Card Styling (Box Model) */
